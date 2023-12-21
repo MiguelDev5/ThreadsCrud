@@ -86,6 +86,5 @@ int main() {
     threadInsertar.join();
     threadBuscar.join();
     threadModificar.join();
-    
     return 0;
 }

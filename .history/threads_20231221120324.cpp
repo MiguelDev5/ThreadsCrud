@@ -86,6 +86,7 @@ int main() {
     threadInsertar.join();
     threadBuscar.join();
     threadModificar.join();
-    
+
+    // Se devuelve 0 para indicar que el programa terminó correctamente
     return 0;
 }
